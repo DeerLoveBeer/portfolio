@@ -1,0 +1,310 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+.contaier{
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width: 100%;
+}
+.menu {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.avatar {
+  width: 57px;
+  height: 57px;
+  background: url(https://pp.userapi.com/c628617/v628617945/45c22/04277NW5DDU.jpg);
+  background-size: 100%;
+  border-radius: 50%;
+}
+.description{
+  margin-left: 9px;
+}
+.menu-logo{
+  display: flex;
+  align-items: center;
+}
+.name{
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+.menu-list a{
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-right: 34px;
+}
+.menu-list a:after {
+  background-color: #2b2a2c;
+  display: block;
+  content:"";
+  height: 2px;
+  width: 0%;
+  left: 50%;
+  position: absolute;
+  transition: width .3s ease-in-out;
+  transform: translateX(-50%);
+}
+.menu-list a:hover:after,
+.menu-list a:focus:after{
+  width: 100%;
+}
+.menu-button {
+ text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #2b2a2c;
+  padding: 13px 22px;
+}
+.hero {
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background: url(https://wmpics.pics/di-CFIR.png) no-repeat right bottom;
+}
+.hero-subtitle {
+  font-size: 32px;
+}
+.hero-title {
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.hero-description {
+  font-size: 18px;
+  color: #6a696b;
+}
+.hero-social {
+  margin-top: 30px;
+}
+.social {
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  margin-right: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+}
+.behance-bg {
+  background-color: #1869ff;
+}
+.facebook-bg {
+  background-color: #3a5898;
+}
+.instagram-bg {
+  background-color: #13578a;
+}
+.vk-bg {
+  background-color: #56acef;
+}
+.hero-buttons {
+  margin-top: 40px;
+}
+.button {
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 34px; 
+  display: inline-block
+}
+.button-primary {
+  color: #fff;
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+.button-o {
+  background-color: transparent;
+  color: #6a696b;
+  border: 1px solid #6a696b;
+}
+.projects {
+  padding: 97px 0;
+}
+.project-cards {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-content: center;
+}
+.p-c {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-content: center;
+}
+.p-c-2 {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-content: center;
+}
+.project-card {
+  min-height: 370px;
+  width: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+  margin-left: 15px;
+}
+.project-card__image {
+  height: 300px;
+}
+.landing-page {
+  background: url(https://psychotext.ru/public/files/images/lp_prototip.png) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.landing-page-2 {
+  background: url(http://blog.profi-site.info/wp-content/uploads/2017/02/bad-landing-page.png) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.landing-page-3{
+  background: url(https://apptractor.ru/wp-content/uploads/2017/08/HTML5.png) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.landing-page-4 {
+  background: url(https://www.socialpilot.co/hs-fs/hubfs/banner-02-3-1.jpg?width=2610&height=1371&name=banner-02-3-1.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.landing-page-5 {
+  background: url(http://www.bestseopower.com/wp-content/uploads/2017/05/4b336e805aa61f6131a324ec2f8a8766.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.landing-page-6 {
+  background: url(https://static.tildacdn.com/tild3563-3062-4663-a265-353230643030/__-01.png) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.landing-page-7 {
+  background: url(https://www.fairdirect.ru/blog/wp-content/uploads/2018/10/%D1%82%D0%B5%D0%BA%D1%81%D1%82-3.1.png) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.landing-page-8 {
+  background: url(https://penbrain.ru/upload/iblock/4a3/4a3154071bf4666511502e1850ef9b16.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.landing-page-9 {
+  background: url(https://rpilot62.ru/wp-content/uploads/2018/06/19155.jpg) center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.project-card__info {
+  padding: 19px 13px;
+}
+.project-category {
+  display: block;
+  font-size: 12px;
+  color: #2b2a2c;
+}
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.footer {
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #747475;
+}
+.footer a{
+  color: #747475;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text {
+  display: flex;
+  align-items: center;
+}
+.copyright {
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #413f41;
+  font-size: 14px;
+}
+.footer-social__link {
+  font-size: 20px;
+  margin-right: 13px;
+}
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-menu a {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 30px;
+}
+.footer-button {
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid #8d8d8e;
+  padding: 8px 22px;
+  text-decoration: none;
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 965px;
+  }
+  .project-card {
+    width: 48%;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 760px;
+  }
+  .project-card {
+    width: 48%;
+  }
+}
+@media (max-width: 768px) {
+  .description_small {
+    font-size: 10px;
+  }
+  .menu-list {
+    display: none;
+  }
+  .hero {
+    padding-bottom: 550px;
+    padding-top: 30px;
+  }
+  .container {
+    width: 95%;
+  }
+  .project-card {
+    width: 100%;
+    margin: 30px auto;
+  }
+}
